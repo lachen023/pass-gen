@@ -1,0 +1,115 @@
+body {
+    font-family: 'Inter';
+    
+}
+
+main {
+    background-color: #1F2937;
+    width: 550px;
+    height: 550px;
+    color: #FFFFFF;
+    position: relative;
+
+}
+
+.title {
+    font-size: 40px;
+    font-weight: 800;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 90px;
+    left: 52px;
+}
+
+#rp {
+    color: #38BDF8;
+    position: relative;
+    top: 50px;
+    
+}
+
+#motto {
+    font-size: 20px;
+    font-weight: normal;
+    position: absolute;
+    top: 220px;
+}
+
+.buttons {  
+    width: 550px;
+    position: absolute;
+    top: 280px;
+    text-align: center;
+}
+
+.btn {
+    background-color: #0EA5E9;
+    border: 0;
+    margin: 0 10px;
+    padding: 9px 17px 9px 15px;
+    color: #FFFFFF;
+    width: 210px;
+    height: 42px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: #38BDF8;
+
+}
+
+.container {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    top: 360px; 
+ 
+    width: 550px;
+    height: 150px;
+}
+/*
+.pass-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 211px;
+    height: 39px;
+    background-color: #273549;
+    color: #55F991;
+    margin: 10px;
+    border-radius: 6px;
+}
+*/
+.pass-container {
+    position: relative;
+    width: 211px;
+    height: 39px;
+    justify-content: center;
+}
+
+input[type=button] {
+    font-family: 'Inter';
+    font-size: 16px;
+    color: #7DD3FC;
+    background-color: #273549;
+    width: 211px;
+    height: 50px;
+    border-radius: 6px;
+    border: 0;
+    margin: 10px;
+    text-align: center;
+
+}
+
+input[type=button]:focus {
+    outline: none;
+    border:1.5px solid #7DD3FC ; 
+}
+
+
+
